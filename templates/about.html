@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% load static %}
+{% block aboutactive %} {% endblock aboutactive%}
+{% block title %}About{% endblock title%}
+
+{% block body %}
+
+
+{% load static %}
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img src="{% static 'img/Zain.jpg' %}" class="d-block w-100" alt="...">
+					<hr>
+					<h4>Hi I am Zain</h4>
+					<p>Python Django Expert i have about 3+ years of experience in Python Django</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>My First Job as a Developer</h4>
+					<hr>
+					<p>I worked as a Python Developer at Techloset <p>
+                    <p>Taking Part in Running Projects ( E-Commerce Websites , Api's , Web development, Python Development, Django Works)
+				</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience as a Developer</h5>
+					<hr>
+					<p>Full stack developer at SAW Developers</p>
+					<p>Handle a e-commerce website named Fimbay which is made for an international level product .</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Intermediate Software Engineer with knowledge of python(3.7) and Django(2.2.4), Django Rest Framework<p>
+                    <p>I have knowledge about Machine learning, Automated Testing TDD and linux also <p>
+                    <p>Skilled In Front end Languages Html,Css,Java Script and jQuery Bootstrap and Angular Js with a Bachelor of Science (BS) focused in Software Engineering.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+	</div>
+
+{% endblock body%}
